@@ -26,6 +26,11 @@ $(function() {
     });
 });
 
+/*Main Title Animation*/
+/*$(window).load(function(){
+  $(".head-name-box").addClass("head-name-box-animation");
+});*/
+
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
