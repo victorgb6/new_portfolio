@@ -11,20 +11,67 @@ color:
   
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Victor Gil Borrego
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: Download my Resumé
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/victorgb6
   - title: linkedin
-    url:
+    url: http://es.linkedin.com/in/victorgilborrego/es
   - title: github
-    url: http://github.com/jekyll
-
+    url: http://github.com/victorgb6
+  
+# Languages Skills (Level between 0 and 5)
+skillslist:
+  - headtitle: Languages
+    skillset:
+    - title: HTML
+      level: 5
+    - title: CSS(SASS)
+      level: 4
+    - title: Javascript
+      level: 5
+    - title: PHP
+      level: 3
+    - title: Swift(iOS)
+      level: 1
+    - title: Angular
+      level: 4
+  - headtitle: Software
+    skillset:
+    - title: Adobe Photoshop
+      level: 4
+    - title: Adobe Illustrator
+      level: 1
+    - title: Xcode
+      level: 2
+    - title: Grunt
+      level: 3
+    - title: Gulp
+      level: 4
+  - headtitle: Spoken
+    skillset:
+    - title: Spanish
+      level: 5
+    - title: English
+      level: 4
+  - headtitle: Other Skills
+    skillset:
+    - title: Responsive Design
+      level: 4
+    - title: User Experience
+      level: 3
+    - title: Wordpress
+      level: 4
+    - title: Shopify
+      level: 3
+    - title: Google Analytics &amp; SEO
+      level: 3
+    
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place

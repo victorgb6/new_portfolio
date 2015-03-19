@@ -1,24 +1,46 @@
  <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+		<section class="success" id="about">
+				<div class="container">
+						<div class="row">
+								<div class="col-lg-12 text-center">
+										<h2>About</h2>
+										<hr class="star-light">
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-lg-4 col-lg-offset-2">
+										<p>Hi! I’m Victor, a front-end developer who loves to create websites and applications, using the latest technologies, focusing on HTML5, CSS3 and Javascript.</p>
+								</div>
+								<div class="col-lg-4">
+										<p>Here you can check some of my projects and read my articles. Enjoy! </p>
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-lg-12 text-center">
+										<h2>Skills</h2>
+										<hr class="star-light">
+								</div>
+						</div>
+						<div class="row">
+								{% for skillitem in site.skillslist %}
+								<div class="col-lg-3 ">
+									<div class="row">
+										<div class="col-lg-12 text-center">
+											<h4>{{skillitem.headtitle}}</h4>
+										</div>
+									</div>
+									{% for language in skillitem.skillset %}
+                  <div class="row">
+                    <div class="col-lg-8">
+											<span>{{language.title}}</span>
+										</div>
+										<div class="col-lg-4 text-right">
+											{% for skill in (1...language.level) %}<i class="fa fa-circle"></i>{% endfor %}{% for skillo in (language.level...4) %}<i class="fa fa-circle-o"></i>{% endfor %}
+										</div> 
+                  </div>
+                  {% endfor %}
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Hi! I’m Victor, a front-end developer who loves to create websites and applications, using the latest technologies, focusing on HTML5, CSS3 and Javascript.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Here you can check some of my projects and read my articles. Enjoy! </p>
-                </div>
-                <!--<div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>-->
-            </div>
-        </div>
-    </section>
+                {% endfor %}
+						</div>
+				</div>
+		</section>
