@@ -1,0 +1,29 @@
+ <!-- Resume Section -->
+		<section class="" id="skills">
+				<div class="container">
+						<div class="row">
+								<div class="col-lg-12 text-center">
+										<h2>Skills</h2>
+										<hr class="star-primary">
+								</div>
+						</div>
+						<div class="row">
+								{% for skillitem in site.skillslist %}
+								<div class="col-lg-3 ">
+									<div class="row">
+										<div class="col-lg-12 text-center">
+											<h4>{{skillitem.headtitle}}</h4>
+										</div>
+									</div>
+									{% for item in skillitem.skillset %}
+									<div class="row">											
+										<div class="col-lg-12">
+											<span>{{item.title}}<span class="text-right pull-right">{% for skill in (1...item.level) %}<i class="fa fa-circle"></i>{% endfor %}{% for skillo in (item.level...4) %}<i class="fa fa-circle-o"></i>{% endfor %}</span></span>
+										</div> 
+									</div>
+									{% endfor %}
+								</div>
+								{% endfor %}
+						</div>
+				</div>
+		</section>

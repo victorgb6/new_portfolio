@@ -2,11 +2,13 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: alcopi.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+title: Alcopi
+img: /img/portfolio/alcopi.png
+alt: screenshot of the project
+project-date: October 2013
+client: Alcopi
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+link: http://www.alcopi.es
+description: This web was a volunteer project for a local painters association. The idea behind this site was to build a website where members at the association were able to upload their latest paints and create galleries. I decided to use Wordpress because it's open source and easy to use. I created a custom theme for them and use a gallery plugin so they can manage the galleries in the back-end.   
 
 ---

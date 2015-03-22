@@ -105,8 +105,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    /*background: #{{ site.color.primary }};*/
-    background-image: url('img/header.png');
+    background-image: url('img/header-min.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,9 +135,6 @@ header .intro-text .name {
     color: white;
     width: 100%;
     color: white;
-    /*margin-top: -22%;
-    position: absolute;
-    transition: ease-out .7s;*/
 }
 
 .head-title{ 
@@ -203,6 +199,12 @@ header .intro-text .name {
 .navbar-brand img{
     margin-top: -29px;
 }
+.m-b-lg{
+    margin-bottom: 40px;  
+}
+.m-r-sm{
+    margin-right: 10px;  
+}
 /***********************/
 header .intro-text .skills {
     font-size: 1.25em;
@@ -247,7 +249,6 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
 }
-
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -293,11 +294,13 @@ section.success {
     section.first {
         padding-top: 75px;
     }
-}
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+    header .head-title{
+        font-size: 4em;
+    }
+    .fancy span:before,
+    .fancy span:after {
+        width: 20%;
+    }
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -348,7 +351,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin-bottom: 30px;
     }
 }
 

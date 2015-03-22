@@ -1,12 +1,14 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: radio.png
+date: 2014-01-01
+img: /img/portfolio/radio.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+title: Radio con Retardo
+project-date: January 2014
+link: http://radioconretardo.com/
+client: Personal project
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: 'This was a pet project that I did for myself. The idea came when I was trying to watch online a football match and I wanted to listen to the radio instead of the tv commentators. So I develop this website where you can select between different radio stations and add the dealy you desire. It suddenly becomes quite a success and the site has around 30.000 page views per month. For the development I used Zurb Foundation as a CSS framework and Gulp as task runner to compile and build it.'
 
 ---

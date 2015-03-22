@@ -1,7 +1,7 @@
 # Site settings
-title: Victor Gil
+title: Victor Gil - Web Developer
 email: victorgb6@victorgil.me
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Victor Gil Borrego front end web developer and ui designer."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -71,15 +71,26 @@ skillslist:
       level: 3
     - title: Google Analytics &amp; SEO
       level: 3
-    
+  
+# Employment Items
+employments:
+  - title: Front End Developer and UI Designer at Telecoming Madrid
+    time: Oct 2013 - Present
+    description: 'I am currently working at Telecoming and more specifically on the Virtual Center 360 project, which is an online platform where companies can manage all their communications in one place, with special attention to the customer care service. I am responsible for the front end part of the platform, including all the javascript code, and the HTML and CSS aswell.'
+  - title: Internship as Front End Developer at KS-Agency London
+    time: Mar 2013 - Jun 2013
+    description: 'I was an intern for KS Agency, a small marketing agency in the Soho area of London. I was helping them with a couple of projects during about three months and a half. My duties were to convert PSD designs into HTML and CSS, and do some Javascript work too.'
+  - title: Software Analyst Assistant at Everis Madrid
+    time: Jan 2012 - Sep 2012
+    description: 'I was a software analyst assistant at Everis, and I was involved in a business intelligence project. I design and develop data flows and ETL processes with PowerCenter 9, and also i have use SQL to develop queries and scripts.'
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 'Madrid, Spain'
   
 # Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<a href="/portfolio2/Victor_Gil_2015.pdf">Click here to download</a>'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+baseurl: /portfolio2
