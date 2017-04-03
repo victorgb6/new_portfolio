@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Victor Gil portfolio's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorgb6/new_portfolio.git"
+  },
+  "author": "Victor Gil Borrego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorgb6/new_portfolio/issues"
+  },
+  "homepage": "https://github.com/victorgb6/new_portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-jekyll": "0.0.0"
+  }
+}
