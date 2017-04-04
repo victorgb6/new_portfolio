@@ -95,9 +95,9 @@ address:
   - line: 'Madrid, Spain'
 
 # Credits content
-credits: '<a href="/portfolio2/Victor_Gil_2015.pdf">Click here to download</a>'
+credits: '<a href="/Victor_resume.pdf">Click here to download</a>'
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-baseurl: /portfolio2
+baseurl:

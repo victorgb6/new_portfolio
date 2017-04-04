@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 4
+date: 2013-11-15
+img: /img/portfolio/mcm.png
+title: MCM
+alt: image-alt
+project-date: June 2016
+client: MCM
+link: https://us.mcmworldwide.com/
+category: Web Development
+description: 'I worked in this e-commerce project to redesign the site of the clothing brand MCM and make a fully responsive site. The back-end of this project is based in Demandware and for the front-end of this project we used technologies like Grunt, Sass and Javascript.'
+
+---

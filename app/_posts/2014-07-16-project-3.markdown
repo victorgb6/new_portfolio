@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 3
+date: 2014-01-01
+img: /img/portfolio/honda.png
+alt: image-alt
+title: Honda Racing
+project-date: January 2016
+link: http://en.hondaracingf1.com/
+client: Honda
+category: Web Development
+description: 'This a project to create and renovate the site of the Honda F1 Racing Team, they want a site where they can promote the races and publish the results of their drivers. We used technologies like Gulp, Sass, Javascript to make fully responsive and accesible site.'
+
+---

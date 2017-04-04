@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+title: Living With
+img: /img/portfolio/lvng.png
+alt: screenshot of the project
+project-date: April 2015
+client: Astra Zeneca
+category: Web Development
+link: https://www.lvng.com
+description: 'This site was part of a campaign launched by Astra Zeneca to show the stories of people that had been fighting lung cancer. We build the whole architecture for this project using technologies like Grunt, Sass and Javascript.'
+---

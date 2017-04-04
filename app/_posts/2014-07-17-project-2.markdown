@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+title: Goodyear
+img: /img/portfolio/goodyear.png
+alt: image-alt
+project-date: August 2015
+client: Goodyear
+category: Web Development
+link: https://www.goodyear.eu
+description: 'I worked in this project to renovate the Goodyear site for the european region, they want a more dynamic and responsive site, so we used technologies like Angular, Grunt, Sass and Javascript to make it real.'
+
+---
